@@ -22,9 +22,6 @@
         <li class="nav-item">
           <a class="btn btn-in" href="#" data-bs-toggle="modal" data-bs-target="#registration">Реєстрація</a>
         </li>
-        <li class="nav-item">
-          <a class="btn btn-in" href="#" data-bs-toggle="modal" data-bs-target="#sign_in" tabindex="-1" aria-disabled="true">Вхід</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -39,7 +36,7 @@
       <div class="show-all-menu">
              <a href="#" data-bs-toggle="modal" data-bs-target="#catalog">Каталог</a>
              <a href="#" data-bs-toggle="modal" data-bs-target="#korzina">Корзина</a>
-             <a href="#">Профіль</a>
+             <a href="#" data-bs-toggle="modal" data-bs-target="#sign_in">Профіль</a>
           </div>
        </div>
      </div>
@@ -179,17 +176,207 @@
        </div>
 
        <div class="modal fade" id="korzina" tabindex="-1" aria-labelledby="korzina" aria-hidden="true">
-         <div class="modal-dialog modal_sign_in modal-dialog-centered ">
-           <div class="modal-content">
-               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         <div class="modal-dialog modal-korzina modal-dialog-centered">
+           <div class="modal-content ">
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
              <div class="modal-body p-4">
-                         <h3 class="modal-korzina">Корзина</h2>
+                 <h3 class="modal-korzina">Корзинa</h2>
+                   <div class="modal-korzina-inside">
+                       <div class="modal-korzina-tovar mt-2 d-flex flex-direction-row">
+                          <div class="korzina-pict">
+                            <img src="img/mouse.jpg" width="160" height="200" alt="">
+                          </div>
+                          <div class="korzina-name">
+                            <h4>Onikuma CW903 Black</h4>
+                          </div>
+                          <div class="">
+                            <p class="btn btn-dark w-50 mt-2 korzina-coust">438₴</p>
+                          </div>
+                          <div class="korzina-plus">
+                             +  <span> 1 </span>  -
+                          </div>
+                       </div>
+                   </div>
+                   <hr>
               </div>
              </div>
            </div>
          </div>
-       </div>
 
+         <div class="modal fade" id="catalog" tabindex="-1" aria-labelledby="catalog" aria-hidden="true">
+           <div class="modal-dialog modal-korzina modal-dialog-centered">
+             <div class="modal-content ">
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               <div class="modal-body p-4">
+                   <h3 class="modal-calatog">Каталог</h2>
+                    <div class="modal-catalog-all d-flex flex-direction-row">
+                        <div class="modal-catalog-name">
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/headphones.png" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Навушники</p>
+                            </div>
+                          </div>
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/game.png" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Геймпади</p>
+                            </div>
+                          </div>
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/keyboard.png" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Клавіатури</p>
+                            </div>
+                          </div>
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/display.png" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Монітори</p>
+                            </div>
+                          </div>
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/micro.png" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Мікрофони</p>
+                            </div>
+                          </div>
+                          <div class="d-flex flex-direction-row">
+                            <div class="">
+                              <img src="img/kovr.jpg" class="me-3" width="25" height="20" alt="">
+                            </div>
+                            <div class="">
+                              <p>Коврики</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-catalog-info">
+                              <div class="catalog-fullname ">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                              <div class="catalog-fullname mt-5">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="modal-catalog-info">
+                              <div class="catalog-fullname">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                              <div class="catalog-fullname mt-5">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="modal-catalog-info">
+                              <div class="catalog-fullname">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                              <div class="catalog-fullname mt-5">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="modal-catalog-info">
+                              <div class="catalog-fullname">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                              <div class="catalog-fullname mt-5">
+                                    <p>Модель</p>
+                                    <div class="catal-pererah">
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                          <p>Назва товару1</p>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+             </div>
+           </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

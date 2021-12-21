@@ -238,7 +238,7 @@ footer{
 .modal{
   &_sign_in{
     width: 100%;
-    max-width: 480px;
+    min-width: 480px;
   }
   .modal-content{
     position: relative;
@@ -272,6 +272,68 @@ footer{
       margin-left: 5px;
       color: black;
       font-size: 15px;
+    }
+  }
+}
+
+.modal-korzina{
+  width: 100%;
+  min-width: 1200px;
+  .modal-content{
+    position: relative;
+    height: 600px;
+  }
+  .modal-korzina-inside{
+    margin-top: 50px;
+  }
+  .korzina-pict{
+    margin-left: 50px;
+  }
+  .korzina-name{
+    margin-left: 17%;
+    text-decoration: underline;
+  }
+  .korzina-coust{
+    position: absolute;
+    max-width: 130px;
+    top: 25%;
+    right: 5%;
+  }
+  .korzina-plus{
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+    font-size: 20px;
+    >span{
+      font-size: 28px;
+      margin: 0px 10px;
+    }
+  }
+}
+
+.modal-catalog-all{
+  margin-top: 40px;
+  .modal-catalog-name{
+    p{
+      padding-bottom: 40px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  .modal-catalog-info{
+    margin-left: 145px;
+    width: 900px;
+    height: 435px;
+    .catalog-fullname{
+      max-width: 150px;
+      font-size: 16px;
+      .catal-pererah{
+        font-size: 13px;
+        >p{
+          margin: 0px;
+          padding: 0px;
+        }
+      }
     }
   }
 }

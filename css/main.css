@@ -187,7 +187,7 @@ footer {
 
 .modal_sign_in {
   width: 100%;
-  max-width: 480px; }
+  min-width: 480px; }
 .modal .modal-content {
   position: relative;
   min-height: 415px;
@@ -214,5 +214,51 @@ footer {
     margin-left: 5px;
     color: black;
     font-size: 15px; }
+
+.modal-korzina {
+  width: 100%;
+  min-width: 1200px; }
+  .modal-korzina .modal-content {
+    position: relative;
+    height: 600px; }
+  .modal-korzina .modal-korzina-inside {
+    margin-top: 50px; }
+  .modal-korzina .korzina-pict {
+    margin-left: 50px; }
+  .modal-korzina .korzina-name {
+    margin-left: 17%;
+    text-decoration: underline; }
+  .modal-korzina .korzina-coust {
+    position: absolute;
+    max-width: 130px;
+    top: 25%;
+    right: 5%; }
+  .modal-korzina .korzina-plus {
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+    font-size: 20px; }
+    .modal-korzina .korzina-plus > span {
+      font-size: 28px;
+      margin: 0px 10px; }
+
+.modal-catalog-all {
+  margin-top: 40px; }
+  .modal-catalog-all .modal-catalog-name p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold; }
+  .modal-catalog-all .modal-catalog-info {
+    margin-left: 145px;
+    width: 900px;
+    height: 435px; }
+    .modal-catalog-all .modal-catalog-info .catalog-fullname {
+      max-width: 150px;
+      font-size: 16px; }
+      .modal-catalog-all .modal-catalog-info .catalog-fullname .catal-pererah {
+        font-size: 13px; }
+        .modal-catalog-all .modal-catalog-info .catalog-fullname .catal-pererah > p {
+          margin: 0px;
+          padding: 0px; }
 
 /*# sourceMappingURL=main.css.map */
