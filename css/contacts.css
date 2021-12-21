@@ -1,0 +1,34 @@
+.contacts .contacts-inside {
+  width: 100%;
+  max-width: 1400px;
+  height: 700px;
+  margin-top: 50px; }
+  .contacts .contacts-inside .contacts-container {
+    position: relative;
+    border-radius: 0.5rem;
+    background-color: #F0ECE3;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    .contacts .contacts-inside .contacts-container .contacts-info {
+      margin-top: 32px; }
+    .contacts .contacts-inside .contacts-container .contacts-where {
+      color: black;
+      padding-left: 20px; }
+      .contacts .contacts-inside .contacts-container .contacts-where span {
+        font-size: 19px; }
+      .contacts .contacts-inside .contacts-container .contacts-where .contacts-fullinfo {
+        padding-top: 10px; }
+      .contacts .contacts-inside .contacts-container .contacts-where a {
+        padding-top: 10px;
+        color: black;
+        text-decoration: none; }
+        .contacts .contacts-inside .contacts-container .contacts-where a:hover {
+          color: black; }
+    .contacts .contacts-inside .contacts-container .contacts-map {
+      position: absolute;
+      left: 32%;
+      top: 4%; }
+
+footer {
+  background-color: white; }
+
+/*# sourceMappingURL=contacts.css.map */
